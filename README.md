@@ -5,6 +5,15 @@ The tool can be used to extrapolate the life time expectation of a memory card i
 
 More information : https://www.swissbit.com/en/support/swissbit-device-manager/
 
+## Compatible WAGO memory card 
+| Part number  | Description          | Support S.M.A.R.T |
+| :--------------- |:---------------:| -----:|
+| 758-879/000-001 | 2Gb SLC SD card | No |
+| 758-879/000-3102 | 2Gb SLC µSD card | No |
+| 758-879/000-2108 | 8Gb pSLC SD card | Yes |
+| 758-879/000-3108 | 8Gb pSLC µSD card | Yes |
+
+
 ## How to install 
 ```
 curl -k -o sbdm-cli https://raw.githubusercontent.com/quenorha/sbdm-cli/refs/heads/main/sbdm-cli && chmod +x sbdm-cli
